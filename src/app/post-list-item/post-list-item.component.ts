@@ -1,6 +1,5 @@
 import { Component, Input } from '@angular/core';
 
-
 @Component({
   selector: 'app-post-list-item',
   templateUrl: './post-list-item.component.html',
@@ -18,7 +17,7 @@ export class PostListItemComponent {
   	this.loveIts++;
   }
 
-  loveItMoins(){
+  loveItLess(){
   	this.loveIts--;
   }
 
