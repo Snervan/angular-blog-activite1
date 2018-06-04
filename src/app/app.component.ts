@@ -25,7 +25,7 @@ export class AppComponent {
     content:'Aenean viverra, quam nec imperdiet hendrerit, metus magna cursus nisi, non suscipit nisi enim id orci. ',
     loveIts: -6,
     created_at: Date.now()
-  },];
+  }];
 
 
   constructor(){

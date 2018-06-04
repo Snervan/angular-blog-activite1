@@ -2,12 +2,12 @@
 				'list-group-item-success' : loveIts > 0,
 				'list-group-item-danger': loveIts < 0}">
 	
-	<span class="pull-right" style="font-size: 17px;font-style: italic; color: grey;">Publié le {{ created_at | date: 'd/MM/yyyy à H:mm' }}</span>
-	<h1 style="font-weight: bold;">{{postTitle}}</h1>
+	<span class="pull-right">Publié le {{ created_at | date: 'd/MM/yyyy à H:mm' }}</span>
+	<h1>{{postTitle}}</h1>
 				    
-	<p style="margin-top: 15px; margin-bottom: 15px;">{{postContent}}</p>
+	<p>{{postContent}}</p>
 	<button class="btn btn-success" (click)="loveItPlus()" style="margin-right: 15px;">Love it !</button>
-	<button class="btn btn-danger" (click)="loveItLess()">Don't love it !</button>
+	<button class="btn btn-danger" (click)="loveItLess()">Don't love it !</button> <BR />
 </li>
 
 
