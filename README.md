@@ -1,6 +1,6 @@
 # About this repository
 
-Work done following the instructions of the first activity from AngularJS' course on OpenClassrooms. This is personal work.
+Work done following the instructions of the first activity from Angular course on OpenClassrooms. This is personal work.
 
 Don't forget **npm-install** to install the necessary packages.
 
